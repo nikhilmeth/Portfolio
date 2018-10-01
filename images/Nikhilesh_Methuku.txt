@@ -1,0 +1,12 @@
+<?php
+//function isItYourBirthday to check if the current date is my birthday
+function isItYourBirthday($dateOfBirth) {
+$time = strtotime($dateOfBirth);
+if(date('m-d') == date('m-d', $time)) 
+    echo "TRUE";
+else
+    echo "FALSE";
+}
+//call the function isItYourBirthday and passing my birthday
+isItYourBirthday("1992-05-17");
+?>
