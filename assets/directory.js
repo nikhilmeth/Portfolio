@@ -3,23 +3,26 @@
 
     function Experience(props) {
         return (
-            <div className="experiences row">
-                <div className="col-md-4">
-                    <img src={props.experience.img} alt={props.experience.company} className="project-image" />
-                </div>
-                <div className="col-md-8">
-                    <div className="project-content text-center">
-                        <h3 className="project-title">{props.experience.company}</h3>
-                        <ul className="project-tags">
-                            <li>{props.experience.name}</li>
-                        </ul>
-                        <p className="project-description text-justify" >
-                            {props.experience.bio}
-                        </p>
-                        <a href={props.experience.url} target="_blank" className="button button-primary">Visit Website</a>
+            <div className="experiences">
+                <div className="row" id={props.experience.id}>
+                    <div className="col-md-4">
+                        <img src={props.experience.img} alt={props.experience.company} className="project-image" />
+                    </div>
+                    <div className="col-md-8">
+                        <div className="project-content text-center">
+                            <h3 className="project-title">{props.experience.company}</h3>
+                            <ul className="project-tags">
+                                <li>{props.experience.name}</li>
+                            </ul>
+                            <p className="project-description text-justify" >
+                                {props.experience.bio}
+                            </p>
+                            <a href={props.experience.url} target="_blank" className="button button-primary">Visit Website</a>
+                        </div>
                     </div>
                 </div>
-            </div>           
+                <p className="borderClass"></p>
+            </div>
         );
     }
 

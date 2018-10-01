@@ -14,44 +14,49 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
     function Experience(props) {
         return React.createElement(
             "div",
-            { className: "experiences row" },
+            { className: "experiences" },
             React.createElement(
                 "div",
-                { className: "col-md-4" },
-                React.createElement("img", { src: props.experience.img, alt: props.experience.company, className: "project-image" })
-            ),
-            React.createElement(
-                "div",
-                { className: "col-md-8" },
+                { className: "row", id: props.experience.id },
                 React.createElement(
                     "div",
-                    { className: "project-content text-center" },
+                    { className: "col-md-4" },
+                    React.createElement("img", { src: props.experience.img, alt: props.experience.company, className: "project-image" })
+                ),
+                React.createElement(
+                    "div",
+                    { className: "col-md-8" },
                     React.createElement(
-                        "h3",
-                        { className: "project-title" },
-                        props.experience.company
-                    ),
-                    React.createElement(
-                        "ul",
-                        { className: "project-tags" },
+                        "div",
+                        { className: "project-content text-center" },
                         React.createElement(
-                            "li",
-                            null,
-                            props.experience.name
+                            "h3",
+                            { className: "project-title" },
+                            props.experience.company
+                        ),
+                        React.createElement(
+                            "ul",
+                            { className: "project-tags" },
+                            React.createElement(
+                                "li",
+                                null,
+                                props.experience.name
+                            )
+                        ),
+                        React.createElement(
+                            "p",
+                            { className: "project-description text-justify" },
+                            props.experience.bio
+                        ),
+                        React.createElement(
+                            "a",
+                            { href: props.experience.url, target: "_blank", className: "button button-primary" },
+                            "Visit Website"
                         )
-                    ),
-                    React.createElement(
-                        "p",
-                        { className: "project-description text-justify" },
-                        props.experience.bio
-                    ),
-                    React.createElement(
-                        "a",
-                        { href: props.experience.url, target: "_blank", className: "button button-primary" },
-                        "Visit Website"
                     )
                 )
-            )
+            ),
+            React.createElement("p", { className: "borderClass" })
         );
     }
 

@@ -4102,4 +4102,12 @@ body.overflow-hidden {
 .colorRed {
     color: red;
 }
+.borderClass {
+    border-bottom: 1px solid;
+    margin: 20px 0 60px
+}
+.experiences:last-child .borderClass {
+    border-bottom: 0px;
+    margin: 0;
+}
 /*# sourceMappingURL=main.css.map *
