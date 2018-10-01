@@ -1,102 +1,58 @@
 window.LMDirectory = {
-  'people' : [
-    {
-      'id': 'lm001',
-      'name': 'Tony Luis Salvador, MLA',
-      'title_cat': 'architect',
-      'intern': false,
-      'title': 'Principal Landscape Architect',
-      'bio' : 'Tony grew up engulfed by the business of landscape design, working most summers with his father, Roberto, at Leaf & Mortar, and with every passing year he knew more and more that he wanted to walk in his father’s footsteps. Roberto, however, was adamant that Tony attend college before settling upon a career. They compromised and Tony set out to study landscape architecture.  After graduating in the top of his class with both a BLA and MLA from University of Oregon, in Eugene, Tony was ready and excited to commit to the family business. Tony’s contributions have included bringing in various public beautification and sustainable design projects that continue to make Portland a progressive, eco-friendly city, and have put Leaf & Mortar on the map for “Small Local Companies with a Big Heart.',
-      'img': '../../../business.wpdiy.net/wp/wp-content/uploads/2015/04/tony_salvador-300x300.jpg',
-      'order': 0
-    },
-    {
-      'id': 'lm002',
-      'name': 'AILENE MCDOTT, MS, APLD',
-      'title_cat': 'designer',
-      'intern': false,
-      'title': 'landscape designer',
-      'bio' : 'Ailene grew up surrounded by green hills and marshlands in Scotland, and although that lush emerald richness is what first enticed her into landscape design, it was, ironically, her interest in water conservation that made her consider it as a serious career.  After completing her undergraduate studies at the University of Glasgow, she moved to California where she received her masters in Ecological Management and Restoration, and began freelancing with various landscape companies. After building up a healthy portfolio of prestigious landscape restoration projects in California’s drought-stricken environment, Ailene was granted membership into the Association of Professional Landscape Designers. Since then, she’s been a key member of our team, and has turned many green yards, into water-friendly rock gardens.',
-      'img': '../../../business.wpdiy.net/wp/wp-content/uploads/2015/04/Ailene_McDott-300x300.jpg',
-      'order': 1
-    },
-    {
-      'id': 'lm003',
-      'name': 'KRISTIANN NGU, MFA, APLD',
-      'title_cat': 'designer',
-      'intern': false,
-      'title': 'LANDSCAPE DESIGNER',
-      'bio' : 'The daughter of a painter mother and a sculptor father, meant Kristiann was destined to be artistic, but what form that would take was a mystery to her family until she was 9. Suddenly, she became interested in the local community gardens, and had her very own plot at the age of 11. Her intricate weavings of local produce, ground covers, and wildflowers became a point of interest in the community. In fact, visitors, in search of gardening and landscape design tips, would swarm to her plot in numbers. By the age of 15, she was speaking at weekend landscape design workshops. Kristiann continued to hone her landscaping skills during summers and breaks away from her MFA program at NYU, and received her APLD shortly after graduation. Kristiann is responsible for designing some of the most exotic and pristine landscapes in the Portland area, where she applies her impressive skills in color and balance to the landscape, like a painter commits paint to the canvas.',
-      'img': '../../../business.wpdiy.net/wp/wp-content/uploads/2015/04/kristiann_ng-300x300.jpg',
-      'order': 2
-    },
-    {
-      'id': 'lm004',
-      'name': 'GEENA DRAPER, MS',
-      'title_cat': 'designer',
-      'intern': false,
-      'title': 'HORTICULTURIST',
-      'bio' : 'There’s no logic that truly explains Geena’s keen interest in plants or her uncanny ability to cultivate original and viable plant stock. Her mother was a banker and her father, an accountant, and most of her siblings work in the finance industry, too. Perhaps the only commonality is that money and plants are both green. In any event, Geena excels at understanding plant growth, creating new and enticing strains of plants that are resistant to disease and drought, and finding or growing the perfect plants for every situation. We are fortunate to have lured Geena away from her work as an educational horticulturist at Portland State University, to her current role as resident plant specialist for Leaf & Mortar.',
-      'img': '../../../business.wpdiy.net/wp/wp-content/uploads/2015/04/Geena-Draper-300x300.jpg',
-      'order': 3
-    },
-    {
-      'id': 'lm005',
-      'name': 'ARNOLD RICKSHAW, CGP',
-      'title_cat': 'contractor',
-      'intern': false,
-      'title': 'GENERAL CONTRACTOR',
-      'bio' : 'Arnold has 35 years experience in general and landscape contracting, and is a Certified Green Professional, however the real reason we hired him is that he’s simply the sharpest, nicest, and most conscientious builder we’ve come across in the whole of Portland. Arnold is truly passionate about the building process, yet he cares deeply about the environment and the effects of construction on natural habitat, and has lead a dozen medium to large-scale habitat restoration projects over the length of his career. With Arnold at the helm of our construction crew, you can be assured that the beautiful landscape you desire won’t be gained at the expense of natural habitat or wildlife, but rather, in harmony, with existing natural conditions.',
-      'img': '../../../business.wpdiy.net/wp/wp-content/uploads/2015/04/Arnold_Rickshaw-300x300.jpg',
-      'order': 4
-    },
-    {
-      'id': 'lm006',
-      'name': 'Luisa Van Pelt',
-      'title_cat': 'designer',
-      'intern': true,
-      'title': 'Design Intern',
-      'bio' : 'Luisa is an intern in our design department.  This photo was taken by Joe Gardner on unsplash.com.  The rest of the bio did not originally appear on the Leaf & Mortar website, but we need a little placeholder text to fill out the page.  You understand.',
-      'img': '../../../assets/luisa-unsplash.jpg',
-      'order': 5
-    },
-    {
-      'id': 'lm007',
-      'name': 'Issa Green',
-      'title_cat': 'architect',
-      'intern': true,
-      'title': 'Architecture Intern',
-      'bio' : 'Issa is an intern in our architecture department.  This photo was taken by Joe Gardner on unsplash.com.  The rest of the bio did not originally appear on the Leaf & Mortar website, but we need a little placeholder text to fill out the page.  You understand.',
-      'img': '../../../assets/issa-unsplash.jpg',
-      'order': 6
-    },
-    {
-      'id': 'lm008',
-      'name': 'Jake Wainwright',
-      'title_cat': 'staff',
-      'intern': false,
-      'title': 'Support Staff',
-      'bio' : 'Jake has been keeping things running for the past five years. This photo was taken by Lucas Sankey on unsplash.com.  The rest of the bio did not originally appear on the Leaf & Mortar website, but we need a little placeholder text to fill out the page.  You understand.',
-      'img': '../../../assets/jake-unsplash.jpg',
-      'order': 7
-    },
-  ],
-  titles: [
-    {
-      'display': 'Architect',
-      'key' : 'architect'
-    },
-    {
-      'display': 'Designer',
-      'key' : 'designer'
-    },
-    {
-      'display': 'Contractor',
-      'key' : 'contractor'
-    },
-    {
-      'display': 'Support Stuff',
-      'key' : 'staff'
-    }
-  ]
+    'experience': [
+        {
+            'id': 'lm001',
+            'name': 'Application Developer',
+            'location': 'Manhattan, Kansas',
+            'company': 'Kansas State University',
+            'bio': 'Design and develop modules for both internal employees and students, integrating them into Staff Center application which is one stop solution for all IT solutions and applications for Housing and Dining Services staff. I meet stakeholders to discuss what their expectations are out of their new system and process them into business solutions by providing them an approachable prototype. I have developed applications where students or employees can place an order for food to various dining centers based on what they serve. This imitates a small-sized e-commerce website which allows the users to track their order, chat with the dining centers or upload any documents if necessary. I have also developed other modules where administrative staff of housing and dining can request the management for new positions. The higher officials mainly use this system to approve or reject positions requested by the staff and most importantly can be tracked where the application is pending. Most of these applications are built using PHP, AJAX, JQuery, Bootstrap and APIs. I like to build interactive applications which are lively.',
+            'img': 'images/ksu-hds.jpeg',
+            'order': 0
+        },
+        {
+            'id': 'lm002',
+            'name': 'Web Application Developer',
+            'location': 'Chicago, Illinois',
+            'company': 'Mcklein Company LLC',
+            'bio': 'Being a single IT man for the entire company here was great because, I had a lot of opportunity to learn and fix various bugs reported by each employee of Mcklein. I worked on 3 e-commerce websites and company website simultaneously which we hosted. We had 3 brands; namely McKlein, Parinda and Siamod all websites sell their leather accessories. These applications were mainly developed on ASP.NET, C#, Bootstrap which was synced to ZedSuite CMS where images and content of these websites can be added or changed but not the backend.',
+            'img': 'images/McKleinUSA.jpg',
+            'order': 1
+        },
+        {
+            'id': 'lm003',
+            'name': 'Front End Developer',
+            'location': 'DeKalb, Illinois',
+            'company': 'Northern Illinois University',
+            'bio': 'I worked as a Graduate Assistant at National Safety Education Center for over 1.5 years. I maintained their official website by complying to Norther Illinois University’s web standards. I have introduced features where users can search courses by location and designed their catalog. I actively managed their social media content by designing and posting the content to various media platforms. I was awarded Ninja Award for driving in most of registrations for few classes hosted by us.',
+            'img': 'images/nsec.png',
+            'order': 2
+        },
+        {
+            'id': 'lm004',
+            'name': 'Application Developer',
+            'location': 'Pune, MH, India',
+            'company': 'Infosys Ltd',
+            'bio': 'I began my career of developing applications with ANZ internet banking application. This application was built on home-grown Infosys tool called Finacle (framework). I was responsible for revamping and making this application responsive. I have redesigned modules like Pay anyone, Funds transfer and Pay Bills modules. I worked on dozens of sprints, where each sprint consisted of 10 business days. The new user registration module was completely build by revamping the entire module by me. These projects were a good start for my career and gave a good boost to my career as I worked on AngularJS, Java, Bootstrap and other front-end technologies.',
+            'img': 'images/anz-logo.jpg',
+            'order': 3
+        },
+    ],
+    titles: [
+        {
+            'display': 'Architect',
+            'key': 'architect'
+        },
+        {
+            'display': 'Designer',
+            'key': 'designer'
+        },
+        {
+            'display': 'Contractor',
+            'key': 'contractor'
+        },
+        {
+            'display': 'Support Stuff',
+            'key': 'staff'
+        }
+    ]
 };

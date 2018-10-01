@@ -36,7 +36,7 @@
                             Continued education has allowed me to stay ahead of the curve and deliver exceptional work to each employer I have worked for. 
                             Nikhil not only develops websites but also designs graphics using Adobe Creative Suite.
                         </div>
-                        <div style="padding: 20px 0px"><a href="assets/Nikhilesh_Methuku.pdf" target="_blank" class="button button-primary">RESUME</a></div>
+                        <div style="padding: 20px 0px"><a href="Assets/Nikhilesh_Methuku.pdf" target="_blank" class="button button-primary">RESUME</a></div>
                     </div> 
                     <div class="col-md-6">
                       <div id="halfscreen-hero" class="home-hero1"></div>
@@ -84,6 +84,7 @@
                       <p class="intro slate">Experiences</p>
                     </div>
                 </div>
+                <div id="directory-root"></div>
                 
                 <div class="row">
                   <div class="col-md-4">
