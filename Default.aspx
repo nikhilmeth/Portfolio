@@ -36,7 +36,7 @@
                             Continued education has allowed me to stay ahead of the curve and deliver exceptional work to each employer I have worked for. 
                             Nikhil not only develops websites but also designs graphics using Adobe Creative Suite.
                         </div>
-                        <div style="padding: 20px 0px"><a href="Assets/Nikhilesh_Methuku.pdf" target="_blank" class="button button-primary">RESUME</a></div>
+                        <div style="padding: 20px 0px"><a href="assets/Nikhilesh_Methuku.pdf" target="_blank" class="button button-primary">RESUME</a></div>
                     </div> 
                     <div class="col-md-6">
                       <div id="halfscreen-hero" class="home-hero1"></div>
@@ -79,81 +79,9 @@
 
         <section class="project-showcase" id="projects">
             <div class="container">
-                <div class="row">
-                    <div class="eight columns offset-by-two columns">
-                      <p class="intro slate">Experiences</p>
-                    </div>
-                </div>
+
                 <div id="directory-root"></div>
-                
-                <div class="row">
-                  <div class="col-md-4">
-                      <img src="images/ksu-hds.jpeg" class="project-image"></div>
-                  <div class="col-md-8">
-                    <div class="project-content" style="text-align:center">
-                      <h3 class="project-title">K-State Housing & Dining</h3>
-                      <ul class="project-tags">
-                        <li>Application Developer (PHP, ASP.NET, AJAX, Javascript, API)</li>
-                      </ul>
-                      <p class="project-description" style="text-align: justify">Design and develop modules for both internal employees and students, integrating them into Staff Center application which is one stop solution for all IT solutions and applications for Housing and Dining Services staff. I meet stakeholders to discuss what their expectations are out of their new system and process them into business solutions by providing them an approachable prototype. I have developed applications where students or employees can place an order for food to various dining centers based on what they serve. This imitates a small-sized e-commerce website which allows the users to track their order, chat with the dining centers or upload any documents if necessary. I have also developed other modules where administrative staff of housing and dining can request the management for new positions. The higher officials mainly use this system to approve or reject positions requested by the staff and most importantly can be tracked where the application is pending. Most of these applications are built using PHP, AJAX, JQuery, Bootstrap and APIs. I like to build interactive applications which are lively.</p>
-                        <a href="http://housing.k-state.edu/" target="_blank" class="button button-primary">Visit Website</a>
-                    </div>
-                  </div>
-                </div>
-                <p style="border-bottom:1px solid;margin:20px 0 60px"></p>
-
-                <div class="row">
-                  <div class="col-md-8">
-                    <div class="project-content" style="text-align:center">
-                      <h3 class="project-title">Mcklein Company LLC</h3>
-                      <ul class="project-tags">
-                        <li>Web Application Developer(ASP.NET, JQuery, SAP B1, AJAX)</li>
-                      </ul>
-                      <p class="project-description" style="text-align: justify">Being a single IT man for the entire company here was great because, I had a lot of opportunity to learn and fix various bugs reported by each employee of Mcklein. I worked on 3 e-commerce websites and company website simultaneously which we hosted. We had 3 brands; namely McKlein, Parinda and Siamod all websites sell their leather accessories. These applications were mainly developed on ASP.NET, C#, Bootstrap which was synced to ZedSuite CMS where images and content of these websites can be added or changed but not the backend.</p>
-                        <a href="https://www.mckleinusa.com/default.aspx" target="_blank" class="button button-primary">Visit Website</a>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                      <img src="images/McKleinUSA.jpg" class="project-image">
-                  </div>
-                </div>
-
-                <p style="border-bottom:1px solid;margin:20px 0 60px"></p>
-                
-                <div class="row">
-                  <div class="col-md-4">
-                      <img src="images/nsec.png" class="project-image">
-                  </div>
-                    <div class="col-md-8">
-                    <div class="project-content" style="text-align:center">
-                      <h3 class="project-title">National Safety Education Center</h3>
-                      <ul class="project-tags">
-                        <li>Front End Developer (HTML, Javascript, Bootstrap)</li>
-                      </ul>
-                      <p class="project-description" style="text-align: justify">I worked as a Graduate Assistant at National Safety Education Center for over 1.5 years. I maintained their official website by complying to Norther Illinois University’s web standards. I have introduced features where users can search courses by location and designed their catalog. I actively managed their social media content by designing and posting the content to various media platforms. I was awarded Ninja Award for driving in most of registrations for few classes hosted by us.</p>
-                        <a href="https://www.nsec.niu.edu/nsec/" target="_blank" class="button button-primary">Visit Website</a>
-                    </div>
-                  </div>
-                </div>
-
-                <p style="border-bottom:1px solid;margin:20px 0 60px"></p>
-
-                <div class="row"> 
-                  <div class="col-md-8">
-                    <div class="project-content" style="text-align:center">
-                      <h3 class="project-title"><a href="https://www.infosys.com/" target="_blank">Infosys</a> (Client: ANZ Bank)</h3>
-                      <ul class="project-tags">
-                        <li>Full Stack Developer (Java, Finacle)</li>
-                      </ul>
-                      <p class="project-description" style="text-align: justify">I began my career of developing applications with ANZ internet banking application. This application was built on home-grown Infosys tool called Finacle (framework). I was responsible for revamping and making this application responsive. I have redesigned modules like Pay anyone, Funds transfer and Pay Bills modules. I worked on dozens of sprints, where each sprint consisted of 10 business days. The new user registration module was completely build by revamping the entire module by me. These projects were a good start for my career and gave a good boost to my career as I worked on AngularJS, Java, Bootstrap and other front-end technologies.</p>
-                        <a href="https://www.anz.com.au/personal/" target="_blank" class="button button-primary">Visit Website</a>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                      <img src="images/anz-logo.jpg" class="project-image">
-                  </div>
-                </div>
-
+   
             </div>
           </section>
 
