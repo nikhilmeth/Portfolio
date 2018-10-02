@@ -102,5 +102,8 @@ i.fa {
         <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
         <script src="assets/resume.js"></script>
         <script src="assets/directory-dist.js"></script>
+        <script>
+            openNav();
+        </script>
         
 </html>
