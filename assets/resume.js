@@ -61,16 +61,19 @@ window.NikDirectory = {
     ],
     skills: [
         {
+            'id': 'skill01',
             'title': 'Languages',
             'icon': 'fa fa-lightbulb-o cadetblue',
             'desc': 'I have developed applications on Javascript, PHP, Java and ASP.NET. Experienced in developing internet banking applications and E-Commerce websites.'
         },
         {
+            'id': 'skill02',
             'title': 'Agile/Waterfall',
             'icon': 'fa fa-magic cadetblue',
             'desc':'I can work on Agile Methodology and Waterfall Methodology. Never exceeded time to deliver a sprint. I write user stories for business requirements by interacting with the clients.'
         },
         {
+            'id': 'skill03',
             'title': 'Code',
             'icon': 'fa fa-code cadetblue',
             'desc': 'I love to design on the browsers, try to make most of the elements cross compatible with all the browsers including Microsoft IE 11. Love to imbibe the hot technologies like React or Angular to the website.'

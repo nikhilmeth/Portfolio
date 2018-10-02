@@ -103,6 +103,7 @@
         );
     }
 
+
     class Directory extends React.Component {
         constructor(props) {
             super(props);
@@ -118,11 +119,40 @@
         render() {
             return (
                 <div className="main-div">
+                    <section className="project-showcase otherDiv" id="about">
+                        <div className="container">
+                            <div className="row">
+                                <div className="eight columns offset-by-two columns">
+                                    <p className="intro slate">About me</p>
+                                </div>
+                            </div>
+                            <div className="row alignMargin">
+                                <div className="col-md-6">
+                                    <div className="cadetblue text-justify">
+                                                    I am a full-stack web developer with 3.5 years of proven experience.
+                                        I have maintained and developed multiple projects, developing both back-end and front-end codebases.
+                                        Fixing the cross-browser bugs is something I am fond of.
+                                        I have demonstrated experience in developing applications in both Agile Methodology (Scrum and XP) and Waterfall Methodology.
+                                        I enjoy being challenged and working on projects that require me to work outside my comfort and knowledge set,
+                                        as continuing to learn new languages and development techniques are important to me and the success of your organization.
+                                        Developed applications using Java and ASP.NET with a deep knowledge of HTML, CSS, Javascript, JQuery, AngularJS and Bootstrap frameworks.
+                                        Continued education has allowed me to stay ahead of the curve and deliver exceptional work to each employer I have worked for.
+                                        Nikhil not only develops websites but also designs graphics using Adobe Creative Suite.
+                                    </div>
+                                    <div><a href="assets/Nikhilesh_Methuku.pdf" target="_blank" className="button button-primary">RESUME</a></div>
+                                </div>
+                                <div className="col-md-6">
+                                    <div id="halfscreen-hero" className="home-hero1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
                     <section className="project-showcase" id="projects">
                         <div className="container">
                                 <div className="row">
                                     <div className="eight columns offset-by-two columns">
-                                        <p className="intro slate">Experiences</p>
+                                        <p className="intro slate">Work Experience</p>
                                     </div>
                                 </div>    
                                 <Experiences experiences={this.state.experiences} />

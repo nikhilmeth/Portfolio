@@ -4120,4 +4120,11 @@ body.overflow-hidden {
 .text-justify {
     text-align: justify !important;
 }
+.alignMargin {
+    text-align: center;
+    margin: 0px 0px
+}
+.padding20_0{
+    padding: 20px 0px;
+}
     /*# sourceMappingURL=main.css.map *

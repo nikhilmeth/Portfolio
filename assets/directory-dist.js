@@ -184,6 +184,54 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                     { className: "main-div" },
                     React.createElement(
                         "section",
+                        { className: "project-showcase otherDiv", id: "about" },
+                        React.createElement(
+                            "div",
+                            { className: "container" },
+                            React.createElement(
+                                "div",
+                                { className: "row" },
+                                React.createElement(
+                                    "div",
+                                    { className: "eight columns offset-by-two columns" },
+                                    React.createElement(
+                                        "p",
+                                        { className: "intro slate" },
+                                        "About me"
+                                    )
+                                )
+                            ),
+                            React.createElement(
+                                "div",
+                                { className: "row alignMargin" },
+                                React.createElement(
+                                    "div",
+                                    { className: "col-md-6" },
+                                    React.createElement(
+                                        "div",
+                                        { className: "cadetblue text-justify" },
+                                        "I am a full-stack web developer with 3.5 years of proven experience. I have maintained and developed multiple projects, developing both back-end and front-end codebases. Fixing the cross-browser bugs is something I am fond of. I have demonstrated experience in developing applications in both Agile Methodology (Scrum and XP) and Waterfall Methodology. I enjoy being challenged and working on projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques are important to me and the success of your organization. Developed applications using Java and ASP.NET with a deep knowledge of HTML, CSS, Javascript, JQuery, AngularJS and Bootstrap frameworks. Continued education has allowed me to stay ahead of the curve and deliver exceptional work to each employer I have worked for. Nikhil not only develops websites but also designs graphics using Adobe Creative Suite."
+                                    ),
+                                    React.createElement(
+                                        "div",
+                                        null,
+                                        React.createElement(
+                                            "a",
+                                            { href: "assets/Nikhilesh_Methuku.pdf", target: "_blank", className: "button button-primary" },
+                                            "RESUME"
+                                        )
+                                    )
+                                ),
+                                React.createElement(
+                                    "div",
+                                    { className: "col-md-6" },
+                                    React.createElement("div", { id: "halfscreen-hero", className: "home-hero1" })
+                                )
+                            )
+                        )
+                    ),
+                    React.createElement(
+                        "section",
                         { className: "project-showcase", id: "projects" },
                         React.createElement(
                             "div",
@@ -197,7 +245,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                                     React.createElement(
                                         "p",
                                         { className: "intro slate" },
-                                        "Experiences"
+                                        "Work Experience"
                                     )
                                 )
                             ),
