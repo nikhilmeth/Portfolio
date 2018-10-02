@@ -74,9 +74,9 @@ i.fa {
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <a href="#fullscreen-hero">Home</a>
           <a href="#about">About</a>
-          <a href="#me">Expertise</a>
           <a href="#projects">Experience</a>
           <a href="#testimony">Testimony</a>
+          <a href="#me">Expertise</a>
           <a href="#contact">Contact</a>
         </div>
         <span id="navIcon" class="navClass" onclick="openNav()">&#9776;</span>

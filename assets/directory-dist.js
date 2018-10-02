@@ -30,7 +30,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                         "div",
                         { className: "project-content text-center" },
                         React.createElement(
-                            "h4",
+                            "h5",
                             { className: "project-title" },
                             props.experience.company
                         ),
@@ -72,9 +72,9 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                     { className: "col-md-9" },
                     React.createElement(
                         "div",
-                        { className: "project-content text-center" },
+                        { className: "project-content text-right" },
                         React.createElement(
-                            "h4",
+                            "h5",
                             { className: "project-title" },
                             props.testimony.name
                         ),
@@ -89,7 +89,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                         ),
                         React.createElement(
                             "p",
-                            { className: "project-description text-justify cadetblue" },
+                            { className: "project-description cadetblue text-justify" },
                             props.testimony.testimony
                         )
                     )
@@ -101,6 +101,28 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                 )
             ),
             React.createElement("p", { className: "borderClass" })
+        );
+    }
+
+    function Skill(props) {
+        return React.createElement(
+            "div",
+            { className: "col-md-4" },
+            React.createElement(
+                "div",
+                { className: "expertise-block" },
+                React.createElement("i", { className: props.skill.icon }),
+                React.createElement(
+                    "h4",
+                    { className: "title slate" },
+                    props.skill.title
+                ),
+                React.createElement(
+                    "p",
+                    { className: "summary cadetblue" },
+                    props.skill.desc
+                )
+            )
         );
     }
 
@@ -126,6 +148,17 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
         );
     }
 
+    function Skills(props) {
+        return React.createElement(
+            "div",
+            { className: "skills" },
+            props.skills.map(function (skill) {
+
+                return React.createElement(Skill, { key: skill.id, skill: skill });
+            })
+        );
+    }
+
     var Directory = function (_React$Component) {
         _inherits(Directory, _React$Component);
 
@@ -136,7 +169,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
             _this.state = {
                 experiences: window.NikDirectory.experiences,
-                testimonies: window.NikDirectory.testimonies
+                testimonies: window.NikDirectory.testimonies,
+                skills: window.NikDirectory.skills
             };
 
             return _this;
@@ -150,10 +184,10 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                     { className: "main-div" },
                     React.createElement(
                         "section",
-                        { "class": "project-showcase", id: "projects" },
+                        { className: "project-showcase", id: "projects" },
                         React.createElement(
                             "div",
-                            { "class": "container" },
+                            { className: "container" },
                             React.createElement(
                                 "div",
                                 { className: "row" },
@@ -172,10 +206,10 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                     ),
                     React.createElement(
                         "section",
-                        { "class": "testimony-showcase otherDiv", id: "testimony" },
+                        { className: "testimony-showcase otherDiv", id: "testimony" },
                         React.createElement(
                             "div",
-                            { "class": "container" },
+                            { className: "container" },
                             React.createElement(
                                 "div",
                                 { className: "row" },
@@ -190,6 +224,32 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                                 )
                             ),
                             React.createElement(Testimonies, { testimonies: this.state.testimonies })
+                        )
+                    ),
+                    React.createElement(
+                        "section",
+                        { id: "me" },
+                        React.createElement(
+                            "div",
+                            { className: "container" },
+                            React.createElement(
+                                "div",
+                                { className: "row" },
+                                React.createElement(
+                                    "div",
+                                    { className: "eight columns offset-by-two columns" },
+                                    React.createElement(
+                                        "p",
+                                        { className: "intro slate" },
+                                        "Expertise"
+                                    )
+                                )
+                            ),
+                            React.createElement(
+                                "div",
+                                { className: "row" },
+                                React.createElement(Skills, { skills: this.state.skills })
+                            )
                         )
                     )
                 );

@@ -22,11 +22,12 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <webopt:bundlereference runat="server" path="Content/css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="~/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
-    <link href="~/Content/SiteNik.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="Content/SiteNik.css" rel="stylesheet" />
+
 <style>
     .navbar-brand {
         padding: 10px 15px 3px;
@@ -67,6 +68,7 @@ i.fa {
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
+
         <script src="Scripts/portfolioNik.js" type="text/javascript"></script>
         <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
 
@@ -74,8 +76,9 @@ i.fa {
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <a href="#fullscreen-hero">Home</a>
           <a href="#about">About</a>
-          <a href="#me">Expertise</a>
           <a href="#projects">Experience</a>
+          <a href="#testimony">Testimony</a>
+          <a href="#me">Expertise</a>
           <a href="#contact">Contact</a>
         </div>
         <span id="navIcon" class="navClass" onclick="openNav()">&#9776;</span>
@@ -97,4 +100,9 @@ i.fa {
     </form>
 
 </body>
+        <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <script src="assets/resume.js"></script>
+        <script src="assets/directory-dist.js"></script>
+        
 </html>

@@ -16,7 +16,7 @@
           </div>
         </div> 
     </div>
-        <section id="about"> 
+        <section id="about" class="otherDiv"> 
             <div class="container">
                 <div class="row">
                     <div class="eight columns offset-by-two columns">
@@ -45,42 +45,11 @@
             </div>
         </section>
 
-    <div class="otherDiv">
-    <section id="me">
-        <div class="container">
-          <div class="row">
-            <div class="eight columns offset-by-two columns">
-              <p class="intro slate">Expertise</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="expertise-block"><i class="fa fa-lightbulb-o cadetblue"></i>
-                <h4 class="title slate">Languages</h4>
-                <p class="summary cadetblue">I have developed applications on PHP, Java and ASP.NET. Experienced in developing internet banking applications and E-Commerce websites.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="expertise-block"><i class="fa fa-magic cadetblue"></i>
-                <h4 class="title slate">Agile/Waterfall</h4>
-                <p class="summary cadetblue">I can work on Agile Methodology and Waterfall Methodology. Never exceeded time to deliver a sprint. I write user stories for business requirements by interacting with the clients.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="expertise-block"><i class="fa fa-code cadetblue"></i>
-                <h4 class="title slate">Code</h4>
-                <p class="summary cadetblue">I love to design on the browsers, try to make most of the elements cross compatible with all the browsers including Microsoft IE 11. Love to imbibe the hot technologies like React or Angular to the website.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
 
     <div id="directory-root"></div>
    
     
-       <section id="contact">
+       <section id="contact" class="otherDiv">
         <div class="container">
             <div class="row">
                 <div class="eight columns offset-by-two columns">

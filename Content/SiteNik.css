@@ -3034,7 +3034,6 @@ p.intro {
 @media screen and (min-width: 750px) {
     p.intro {
     font-size: 3.2rem;
-    margin: 5rem 0 2.0rem;
 }
 }p.statement {
     font-size: 1.6rem;
@@ -3495,12 +3494,12 @@ footer .social-links a:hover {
     width: 100%;
     border-radius: 30px;
 }
-.project-showcase .project-content .project-title {
+.project-showcase .project-content .project-title, .testimony-showcase .project-content .project-title {
     font-size: 1.45em;
     font-weight: 700;
     margin-bottom: 0px;
 }
-.project-showcase .project-content .project-description {
+.project-content .project-description {
     margin: 10px 0 10px 0;
     line-height: 1.6;
     font-size: 1.4rem;
@@ -3548,10 +3547,6 @@ footer .social-links a:hover {
 }
 .project-showcase .project-content.text-right {
     padding-left: 7.0rem;
-}
-}@media screen and (min-width: 1000px) {
-    .project-showcase .project-content .project-title {
-    font-size: 2.8rem;
 }
 }@media screen and (min-width: 750px) {
     .project-showcase a.button {
@@ -4104,7 +4099,7 @@ body.overflow-hidden {
 }
 .borderClass {
     border-bottom: 1px solid;
-    margin: 20px 0 60px
+    margin: 20px 0 40px
 }
 .experiences:last-child .borderClass {
     border-bottom: 0px;
@@ -4120,6 +4115,9 @@ body.overflow-hidden {
     border-radius: 50%;
 }
 .testimony:last-child img.project-image {
-    border: 12px solid #fff;
+    border: 10px solid #fff;
+}
+.text-justify {
+    text-align: justify !important;
 }
     /*# sourceMappingURL=main.css.map *

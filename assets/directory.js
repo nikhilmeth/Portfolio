@@ -10,7 +10,7 @@
                     </div>
                     <div className="col-md-8">
                         <div className="project-content text-center">
-                            <h4 className="project-title">{props.experience.company}</h4>
+                            <h5 className="project-title">{props.experience.company}</h5>
                             <ul className="project-tags">
                                 <li>{props.experience.name}</li>
                             </ul>
@@ -31,12 +31,12 @@
             <div className="testimony">
                 <div className="row" id={props.testimony.id}>
                     <div className="col-md-9">
-                        <div className="project-content text-center">
-                            <h4 className="project-title">{props.testimony.name}</h4>
+                        <div className="project-content text-right">
+                            <h5 className="project-title">{props.testimony.name}</h5>
                             <ul className="project-tags">
                                 <li>{props.testimony.position}</li>
                             </ul>
-                            <p className="project-description text-justify cadetblue" >
+                            <p className="project-description cadetblue text-justify" >
                                 {props.testimony.testimony}
                             </p>
                         </div>
@@ -46,6 +46,17 @@
                     </div>                  
                 </div>
                 <p className="borderClass"></p>
+            </div>
+        );
+    }
+
+    function Skill(props) {
+        return (
+            <div className="col-md-4">
+                <div className="expertise-block"><i className={props.skill.icon}></i>
+                    <h4 className="title slate">{props.skill.title}</h4>
+                    <p className="summary cadetblue">{props.skill.desc}</p>
+                </div>
             </div>
         );
     }
@@ -78,13 +89,28 @@
         );
     }
 
+    function Skills(props) {
+        return (
+            <div className="skills">
+
+                {props.skills.map(function (skill) {
+
+                    return <Skill key={skill.id} skill={skill} />;
+
+                })}
+
+            </div>
+        );
+    }
+
     class Directory extends React.Component {
         constructor(props) {
             super(props);
 
             this.state = {
                 experiences: window.NikDirectory.experiences,
-                testimonies: window.NikDirectory.testimonies
+                testimonies: window.NikDirectory.testimonies,
+                skills: window.NikDirectory.skills
             };
 
         }
@@ -92,8 +118,8 @@
         render() {
             return (
                 <div className="main-div">
-                    <section class="project-showcase" id="projects">
-                        <div class="container">
+                    <section className="project-showcase" id="projects">
+                        <div className="container">
                                 <div className="row">
                                     <div className="eight columns offset-by-two columns">
                                         <p className="intro slate">Experiences</p>
@@ -103,14 +129,27 @@
                         </div>
                     </section>
 
-                    <section class="testimony-showcase otherDiv" id="testimony">
-                        <div class="container">
+                    <section className="testimony-showcase otherDiv" id="testimony">
+                        <div className="container">
                             <div className="row">
                                 <div className="eight columns offset-by-two columns">
                                     <p className="intro slate">What my previous employers are saying?</p>
                                 </div>
                             </div>
                             <Testimonies testimonies={this.state.testimonies} />
+                        </div>
+                    </section>
+
+                    <section id="me">
+                        <div className="container">
+                            <div className="row">
+                                <div className="eight columns offset-by-two columns">
+                                    <p className="intro slate">Expertise</p>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <Skills skills={this.state.skills} />
+                            </div>
                         </div>
                     </section>
                 </div>
