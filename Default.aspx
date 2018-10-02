@@ -77,15 +77,9 @@
       </section>
     </div>
 
-        <section class="project-showcase" id="projects">
-            <div class="container">
-
-                <div id="directory-root"></div>
+    <div id="directory-root"></div>
    
-            </div>
-          </section>
-
-    <div class="otherDiv">
+    
        <section id="contact">
         <div class="container">
             <div class="row">
@@ -156,6 +150,6 @@
             </div>
         </div>
       </section>
-    </div>
+    
    
 </asp:Content>

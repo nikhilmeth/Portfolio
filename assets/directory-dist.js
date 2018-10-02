@@ -30,7 +30,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                         "div",
                         { className: "project-content text-center" },
                         React.createElement(
-                            "h3",
+                            "h4",
                             { className: "project-title" },
                             props.experience.company
                         ),
@@ -60,6 +60,50 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
         );
     }
 
+    function Testimony(props) {
+        return React.createElement(
+            "div",
+            { className: "testimony" },
+            React.createElement(
+                "div",
+                { className: "row", id: props.testimony.id },
+                React.createElement(
+                    "div",
+                    { className: "col-md-9" },
+                    React.createElement(
+                        "div",
+                        { className: "project-content text-center" },
+                        React.createElement(
+                            "h4",
+                            { className: "project-title" },
+                            props.testimony.name
+                        ),
+                        React.createElement(
+                            "ul",
+                            { className: "project-tags" },
+                            React.createElement(
+                                "li",
+                                null,
+                                props.testimony.position
+                            )
+                        ),
+                        React.createElement(
+                            "p",
+                            { className: "project-description text-justify cadetblue" },
+                            props.testimony.testimony
+                        )
+                    )
+                ),
+                React.createElement(
+                    "div",
+                    { className: "col-md-3" },
+                    React.createElement("img", { src: props.testimony.img, alt: props.testimony.name, className: "project-image" })
+                )
+            ),
+            React.createElement("p", { className: "borderClass" })
+        );
+    }
+
     function Experiences(props) {
         return React.createElement(
             "div",
@@ -67,6 +111,17 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
             props.experiences.map(function (experience) {
 
                 return React.createElement(Experience, { key: experience.id, experience: experience });
+            })
+        );
+    }
+
+    function Testimonies(props) {
+        return React.createElement(
+            "div",
+            { className: "testimonies" },
+            props.testimonies.map(function (testimony) {
+
+                return React.createElement(Testimony, { key: testimony.id, testimony: testimony });
             })
         );
     }
@@ -80,7 +135,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
             var _this = _possibleConstructorReturn(this, (Directory.__proto__ || Object.getPrototypeOf(Directory)).call(this, props));
 
             _this.state = {
-                experiences: window.NikDirectory.experiences
+                experiences: window.NikDirectory.experiences,
+                testimonies: window.NikDirectory.testimonies
             };
 
             return _this;
@@ -91,21 +147,51 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
             value: function render() {
                 return React.createElement(
                     "div",
-                    { className: "experiences-info" },
+                    { className: "main-div" },
                     React.createElement(
-                        "div",
-                        { className: "row" },
+                        "section",
+                        { "class": "project-showcase", id: "projects" },
                         React.createElement(
                             "div",
-                            { className: "eight columns offset-by-two columns" },
+                            { "class": "container" },
                             React.createElement(
-                                "p",
-                                { className: "intro slate" },
-                                "Experiences"
-                            )
+                                "div",
+                                { className: "row" },
+                                React.createElement(
+                                    "div",
+                                    { className: "eight columns offset-by-two columns" },
+                                    React.createElement(
+                                        "p",
+                                        { className: "intro slate" },
+                                        "Experiences"
+                                    )
+                                )
+                            ),
+                            React.createElement(Experiences, { experiences: this.state.experiences })
                         )
                     ),
-                    React.createElement(Experiences, { experiences: this.state.experiences })
+                    React.createElement(
+                        "section",
+                        { "class": "testimony-showcase otherDiv", id: "testimony" },
+                        React.createElement(
+                            "div",
+                            { "class": "container" },
+                            React.createElement(
+                                "div",
+                                { className: "row" },
+                                React.createElement(
+                                    "div",
+                                    { className: "eight columns offset-by-two columns" },
+                                    React.createElement(
+                                        "p",
+                                        { className: "intro slate" },
+                                        "What my previous employers are saying?"
+                                    )
+                                )
+                            ),
+                            React.createElement(Testimonies, { testimonies: this.state.testimonies })
+                        )
+                    )
                 );
             }
         }]);

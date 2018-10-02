@@ -4020,7 +4020,7 @@ body.overflow-hidden {
 }
 }
 .sidenav {
-    height: 300px;
+    height: auto;
     width: 0;
     position: fixed;
     z-index: 2;
@@ -4110,4 +4110,16 @@ body.overflow-hidden {
     border-bottom: 0px;
     margin: 0;
 }
-/*# sourceMappingURL=main.css.map *
+.testimony:last-child .borderClass {
+    border-bottom: 0px;
+    margin: 0;
+}
+.testimony-showcase img.project-image {
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+}
+.testimony:last-child img.project-image {
+    border: 12px solid #fff;
+}
+    /*# sourceMappingURL=main.css.map *
