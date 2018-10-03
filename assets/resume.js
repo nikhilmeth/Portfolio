@@ -2,7 +2,7 @@ window.NikDirectory = {
     'experiences': [
         {
             'id': 'lm001',
-            'name': 'Application Developer (PHP, ASP.NET, AJAX, Javascript, API)',
+            'name': 'Application Developer',
             'location': 'Manhattan, Kansas',
             'company': 'Kansas State University',
             'bio': 'Design and develop modules for both internal employees and students, integrating them into Staff Center application which is one stop solution for all IT solutions and applications for Housing and Dining Services staff. I meet stakeholders to discuss what their expectations are out of their new system and process them into business solutions by providing them an approachable prototype. I have developed applications where students or employees can place an order for food to various dining centers based on what they serve. This imitates a small-sized e-commerce website which allows the users to track their order, chat with the dining centers or upload any documents if necessary. I have also developed other modules where administrative staff of housing and dining can request the management for new positions. The higher officials mainly use this system to approve or reject positions requested by the staff and most importantly can be tracked where the application is pending. Most of these applications are built using PHP, AJAX, JQuery, Bootstrap and APIs. I like to build interactive applications which are lively.',

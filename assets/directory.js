@@ -12,10 +12,8 @@
                     </div>
                     <div className="col-md-8">
                         <div className="project-content text-center">
-                            <h5 className="project-title">{props.experience.company}</h5>
-                            <ul className="project-tags">
-                                <li>{props.experience.name}</li>
-                            </ul>
+                            <div className="project-title">{props.experience.name}</div>
+                                <h6>{props.experience.company}</h6>
                             <p className="project-description text-justify" >
                                 {props.experience.bio}
                             </p>
@@ -153,13 +151,13 @@
                             <div className="row alignMargin">
                                 <div className="col-md-6">
                                     <div className="cadetblue text-justify">
-                                                    I am a full-stack web developer with 3.5 years of proven experience.
-                                        I have maintained and developed multiple projects, developing both back-end and front-end codebases.
+                                                    I am a full-stack web developer with 4 years of proven experience.
+                                        I have maintained and developed multiple projects, developed both back-end and front-end codebases.
                                         Fixing the cross-browser bugs is something I am fond of.
                                         I have demonstrated experience in developing applications in both Agile Methodology (Scrum and XP) and Waterfall Methodology.
                                         I enjoy being challenged and working on projects that require me to work outside my comfort and knowledge set,
                                         as continuing to learn new languages and development techniques are important to me and the success of your organization.
-                                        Developed applications using Java and ASP.NET with a deep knowledge of HTML, CSS, Javascript, JQuery, AngularJS and Bootstrap frameworks.
+                                        Developed applications using PHP, Java and ASP.NET with a deep knowledge of HTML, CSS, Javascript, React, JQuery, Angular and Bootstrap frameworks.
                                         Continued education has allowed me to stay ahead of the curve and deliver exceptional work to each employer I have worked for.
                                         Nikhil not only develops websites but also designs graphics using Adobe Creative Suite.
                                     </div>

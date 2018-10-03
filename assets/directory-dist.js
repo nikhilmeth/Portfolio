@@ -32,18 +32,14 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                         "div",
                         { className: "project-content text-center" },
                         React.createElement(
-                            "h5",
+                            "div",
                             { className: "project-title" },
-                            props.experience.company
+                            props.experience.name
                         ),
                         React.createElement(
-                            "ul",
-                            { className: "project-tags" },
-                            React.createElement(
-                                "li",
-                                null,
-                                props.experience.name
-                            )
+                            "h6",
+                            null,
+                            props.experience.company
                         ),
                         React.createElement(
                             "p",
@@ -243,7 +239,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                                     React.createElement(
                                         "div",
                                         { className: "cadetblue text-justify" },
-                                        "I am a full-stack web developer with 3.5 years of proven experience. I have maintained and developed multiple projects, developing both back-end and front-end codebases. Fixing the cross-browser bugs is something I am fond of. I have demonstrated experience in developing applications in both Agile Methodology (Scrum and XP) and Waterfall Methodology. I enjoy being challenged and working on projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques are important to me and the success of your organization. Developed applications using Java and ASP.NET with a deep knowledge of HTML, CSS, Javascript, JQuery, AngularJS and Bootstrap frameworks. Continued education has allowed me to stay ahead of the curve and deliver exceptional work to each employer I have worked for. Nikhil not only develops websites but also designs graphics using Adobe Creative Suite."
+                                        "I am a full-stack web developer with 4 years of proven experience. I have maintained and developed multiple projects, developed both back-end and front-end codebases. Fixing the cross-browser bugs is something I am fond of. I have demonstrated experience in developing applications in both Agile Methodology (Scrum and XP) and Waterfall Methodology. I enjoy being challenged and working on projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques are important to me and the success of your organization. Developed applications using PHP, Java and ASP.NET with a deep knowledge of HTML, CSS, Javascript, React, JQuery, Angular and Bootstrap frameworks. Continued education has allowed me to stay ahead of the curve and deliver exceptional work to each employer I have worked for. Nikhil not only develops websites but also designs graphics using Adobe Creative Suite."
                                     ),
                                     React.createElement(
                                         "div",
