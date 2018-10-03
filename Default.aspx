@@ -10,7 +10,7 @@
                 <span class="wrap"></span>
                 </a>
             </h1>
-            <div class="page-scroll"><a href="#contact" class="button button-ghost">Yes, I'm Available For Hire</a></div>
+            <div class="page-scroll"><a href="mailto:nikhil.methuku@gmail.com" class="button button-ghost">Yes, I'm Available For Hire</a></div>
             <h4 style="color: cadetblue">Javascript enthusiastic</h4>
             <div class="page-scroll learn-more"><a href="#about">Learn more about what I do<br><i class="fa fa-chevron-down"></i></a></div>
           </div>
