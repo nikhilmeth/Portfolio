@@ -41,22 +41,22 @@ window.NikDirectory = {
             'order': 3
         },
     ],
-        testimonies: [
+    testimonies: [
         {
             'id': 't1',
             'name': 'Alexandra Shock',
             'position': 'Graphics Designer at McKlein Company LLC',
-            'date':'August 31, 2018',
-            'img':'images/alex.jpeg',
-            'testimony':'I worked on a team with Nikhilesh at McKlein Company. His knowledge of ASP.net and coding skills greatly improved our three ecommerce websites. He was very good at trouble shooting any issues that came up with our website and in SAP. He is a great team player and we worked very well together to improve the website and our email marketing strategies. His work on improving our websites SEO had helped to drive new customers to our websites. Nikhilesh would be a great asset to any team with his extensive coding knowledge and willingness to learn new programs.'
+            'date': 'August 31, 2018',
+            'img': 'images/alex.jpeg',
+            'testimony': 'I worked on a team with Nikhilesh at McKlein Company. His knowledge of ASP.net and coding skills greatly improved our three ecommerce websites. He was very good at trouble shooting any issues that came up with our website and in SAP. He is a great team player and we worked very well together to improve the website and our email marketing strategies. His work on improving our websites SEO had helped to drive new customers to our websites. Nikhilesh would be a great asset to any team with his extensive coding knowledge and willingness to learn new programs.'
         },
         {
             'id': 't2',
             'name': 'Jelmir Atkins',
             'position': 'Assistant Director, External Porgramming/National Safety Education Center at Northern Illinois U',
-            'date':'October 2, 2017',
-            'img':'images/jelmir.jpeg',
-            'testimony':'Nikhilesh is instrumental in assisting the National Safety Education and External Programming office with our web development, marketing and promotion tools. His diligence and talent in creating online and hard copy brochures, flyers, social media updates is super. He initiated several additions and changes to our website which increased traffic flow and registrations for classes. Our external and internal constituents have noticed the professional look and easier to navigate website. He sees the big picture and makes sure no small detail is overlooked. Nikhilesh is very smart, pro-active, a quick learner, eager and enthusiastic about contributing to team work and a delight to work with. He is a great addition to our team and has enhanced our online presence because of his excellent skills. I would recommend him with the highest marks!'
+            'date': 'October 2, 2017',
+            'img': 'images/jelmir.jpeg',
+            'testimony': 'Nikhilesh is instrumental in assisting the National Safety Education and External Programming office with our web development, marketing and promotion tools. His diligence and talent in creating online and hard copy brochures, flyers, social media updates is super. He initiated several additions and changes to our website which increased traffic flow and registrations for classes. Our external and internal constituents have noticed the professional look and easier to navigate website. He sees the big picture and makes sure no small detail is overlooked. Nikhilesh is very smart, pro-active, a quick learner, eager and enthusiastic about contributing to team work and a delight to work with. He is a great addition to our team and has enhanced our online presence because of his excellent skills. I would recommend him with the highest marks!'
         }
     ],
     skills: [
@@ -70,13 +70,40 @@ window.NikDirectory = {
             'id': 'skill02',
             'title': 'Agile/Waterfall',
             'icon': 'fa fa-magic cadetblue',
-            'desc':'I can work on Agile Methodology and Waterfall Methodology. Never exceeded time to deliver a sprint. I write user stories for business requirements by interacting with the clients.'
+            'desc': 'I can work on Agile Methodology and Waterfall Methodology. Never exceeded time to deliver a sprint. I write user stories for business requirements by interacting with the clients.'
         },
         {
             'id': 'skill03',
             'title': 'Code',
             'icon': 'fa fa-code cadetblue',
             'desc': 'I love to design on the browsers, try to make most of the elements cross compatible with all the browsers including Microsoft IE 11. Love to imbibe the hot technologies like React or Angular to the website.'
+        }
+    ],
+    footer: [
+        {
+            'id': 'f1',
+            'href': 'https://github.com/nikhilmeth',
+            'icon': 'fa fa-3 fa-github footerFonts'
+        },
+        {
+            'id': 'f2',
+            'href': 'https://www.facebook.com/nikhil.methuku',
+            'icon': 'fa fa-facebook-square footerFonts'
+        },
+        {
+            'id': 'f3',
+            'href': 'https://twitter.com/nikhilmeth',
+            'icon': 'fa fa-twitter-square footerFonts'
+        },
+        {
+            'id': 'f4',
+            'href': 'https://www.linkedin.com/in/nikhilesh-methuku',
+            'icon': 'fa fa-linkedin-square footerFonts'
+        },
+        {
+            'id': 'f5',
+            'href': 'https://www.instagram.com/nikhilmeth/',
+            'icon': 'fa fa-instagram footerFonts'
         }
     ]
 };

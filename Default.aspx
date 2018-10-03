@@ -49,46 +49,6 @@
                   </div>
               </div>
             </div>
-            <br>
-            <!--div id="hireMe">
-                <div class="form-group row">
-                    <label class="col-md-4 text-right">Name <span class="colorRed">*</span></label>
-                    <div class="col-md-3">
-                        <input type="text" runat="server" class="form-control" id="firstName" value="" placeholder="First name" required/>
-                    </div>
-                    <div class="col-md-3">
-                        <input type="text" runat="server" class="form-control" id="lastName" value="" placeholder="Last name" required/>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="emailId" class="col-md-4 text-right">Email <span class="colorRed">*</span></label>
-                    <div class="col-md-6">
-                        <input type="text" runat="server" class="form-control" id="emailId" value="" placeholder="Email@email.com" required />
-                    </div>                        
-                </div>
-                <div class="form-group row">
-                    <label for="companyName" class="col-md-4 text-right ">Company</label>
-                    <div class="col-md-6">
-                        <input type="text" runat="server" class="form-control" id="companyName" value="" placeholder="abc llc" />
-                    </div>                        
-                </div>
-                <div class="form-group row">
-                    <label for="phNo" class="col-md-4 text-right">Phone Number</label>
-                    <div class="col-md-6">
-                        <input type="text" runat="server" class="form-control" id="phNo" value="" placeholder="(000) 000-0000" />
-                    </div>                        
-                </div>
-                <div class="form-group row">
-                    <label for="jobDesc" class="col-md-4 text-right">Job description</label>
-                    <div class="col-md-6">
-                        <input type="text" runat="server" class="form-control" id="jobDesc" rows="3" />
-                    </div>                        
-                </div>
-                <div class="form-group text-center" >
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" cssClass="btn btn-primary" />
-                </div>
-            </div>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2-91Q-d4UfgRbrq9BRdpTVFonPSuMZ7oNkTEtvWRCUkvNgg/viewform?embedded=true" width="640" height="1016" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe-->
 
         </div>
       </section>

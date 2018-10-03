@@ -1,6 +1,8 @@
 ﻿(function () {
     "use strict";
 
+    const currentYear = new Date().getFullYear()
+
     function Experience(props) {
         return (
             <div className="experiences">
@@ -61,6 +63,15 @@
         );
     }
 
+    function Link(props) {
+        return (
+                <span>
+                    <a href={props.link.href} target="_blank"><i className={props.link.icon} aria-hidden="true"></i></a>
+                </span>
+                
+            );
+    }
+
     function Experiences(props) {
         return (
             <div className="results">
@@ -103,6 +114,18 @@
         );
     }
 
+    function Links(props) {
+        return (
+            <footer className="footer">
+                {props.links.map(function (link) {
+
+                    return <Link key={link.id} link={link} />;
+
+                })}
+                <p>© {currentYear} - Nikhilesh Methuku</p>
+            </footer>    
+        );
+    }
 
     class Directory extends React.Component {
         constructor(props) {
@@ -111,7 +134,8 @@
             this.state = {
                 experiences: window.NikDirectory.experiences,
                 testimonies: window.NikDirectory.testimonies,
-                skills: window.NikDirectory.skills
+                skills: window.NikDirectory.skills,
+                links: window.NikDirectory.footer
             };
 
         }
@@ -182,6 +206,8 @@
                             </div>
                         </div>
                     </section>
+
+                    <Links links={this.state.links}/>
                 </div>
             );
         }

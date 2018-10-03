@@ -11,6 +11,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 (function () {
     "use strict";
 
+    var currentYear = new Date().getFullYear();
+
     function Experience(props) {
         return React.createElement(
             "div",
@@ -126,6 +128,18 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
         );
     }
 
+    function Link(props) {
+        return React.createElement(
+            "span",
+            null,
+            React.createElement(
+                "a",
+                { href: props.link.href, target: "_blank" },
+                React.createElement("i", { className: props.link.icon, "aria-hidden": "true" })
+            )
+        );
+    }
+
     function Experiences(props) {
         return React.createElement(
             "div",
@@ -159,6 +173,24 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
         );
     }
 
+    function Links(props) {
+        return React.createElement(
+            "footer",
+            { className: "footer" },
+            props.links.map(function (link) {
+
+                return React.createElement(Link, { key: link.id, link: link });
+            }),
+            React.createElement(
+                "p",
+                null,
+                "\xA9 ",
+                currentYear,
+                " - Nikhilesh Methuku"
+            )
+        );
+    }
+
     var Directory = function (_React$Component) {
         _inherits(Directory, _React$Component);
 
@@ -170,7 +202,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
             _this.state = {
                 experiences: window.NikDirectory.experiences,
                 testimonies: window.NikDirectory.testimonies,
-                skills: window.NikDirectory.skills
+                skills: window.NikDirectory.skills,
+                links: window.NikDirectory.footer
             };
 
             return _this;
@@ -299,7 +332,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                                 React.createElement(Skills, { skills: this.state.skills })
                             )
                         )
-                    )
+                    ),
+                    React.createElement(Links, { links: this.state.links })
                 );
             }
         }]);
