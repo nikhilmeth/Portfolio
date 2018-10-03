@@ -84,16 +84,7 @@ i.fa {
         <div class="body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <footer>
-                <div>
-	            <a href="https://github.com/nikhilmeth" target="_blank"><i class="fa fa-3 fa-github footerFonts" aria-hidden="true"></i></a>
-                <a href="https://www.facebook.com/nikhil.methuku" target="_blank"><i class="fa fa-facebook-square footerFonts" aria-hidden="true"></i></a>
-                <a href="https://twitter.com/nikhilmeth" target="_blank"><i class="fa fa-twitter-square footerFonts" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/nikhilesh-methuku-58579376" target="_blank"><i class="fa fa-linkedin-square footerFonts" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com/nikhilmeth/" target="_blank"><i class="fa fa-instagram footerFonts" aria-hidden="true"></i></a>
-            </div>
-                <p>© 2018 - Nikhilesh Methuku</p>
-            </footer>
+
         </div>
     </form>
 

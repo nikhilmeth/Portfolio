@@ -19,39 +19,6 @@
  
 
     <div id="directory-root"></div>
-   
-    
-       <section id="contact" class="otherDiv">
-        <div class="container">
-            <div class="row">
-                <div class="eight columns offset-by-two columns">
-                  <p class="intro slate">Contact</p>
-                </div>
-            </div>
-            
-            <div class="row" align="center" style="padding-bottom:30px">
-              <div style="display:table; font-size:14px; font-weight:600; color:cadetblue; padding-bottom: 24px">
-                  <div style="display:table-row">
-                      <div style="display:table-cell; width:100px;text-align:left;padding-right:5px;padding-bottom: 8px">Name:</div>
-                      <div style="display:table-cell; width:80px;text-align:left">Nikhilesh Methuku</div>
-                  </div>
-                  <div style="display:table-row">
-                      <div style="display:table-cell;text-align:left;padding-right:5px;padding-bottom: 8px">Email:</div>
-                      <div style="display:table-cell;text-align:left"><a href="mailto:nikhil.methuku@gmail.com" target="_top">nikhil.methuku@gmail.com</a></div>
-                  </div>
-                  <div style="display:table-row">
-                      <div style="display:table-cell;text-align:left;padding-right:5px;padding-bottom: 8px">Phone:</div>
-                      <div style="display:table-cell;text-align:left">(815) 764-7215</div>
-                  </div>
-                  <div style="display:table-row">
-                      <div style="display:table-cell;text-align:left;padding-right:5px;padding-bottom: 8px">Address:</div>
-                      <div style="display:table-cell; width:80px;text-align:left">3128 Lundin Dr. Manhattan, KS 66503</div>
-                  </div>
-              </div>
-            </div>
-
-        </div>
-      </section>
     
    
 </asp:Content>

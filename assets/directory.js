@@ -116,7 +116,7 @@
 
     function Links(props) {
         return (
-            <footer className="footer">
+            <footer className="footer" id="contact">
                 {props.links.map(function (link) {
 
                     return <Link key={link.id} link={link} />;

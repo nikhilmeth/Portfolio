@@ -104,6 +104,11 @@ window.NikDirectory = {
             'id': 'f5',
             'href': 'https://www.instagram.com/nikhilmeth/',
             'icon': 'fa fa-instagram footerFonts'
+        },
+        {
+            'id': 'f6',
+            'href': 'mailto:nikhil.methuku@gmail.com',
+            'icon': 'fa fa-envelope footerFonts'
         }
     ]
 };

@@ -176,7 +176,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
     function Links(props) {
         return React.createElement(
             "footer",
-            { className: "footer" },
+            { className: "footer", id: "contact" },
             props.links.map(function (link) {
 
                 return React.createElement(Link, { key: link.id, link: link });
