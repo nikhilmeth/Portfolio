@@ -3193,14 +3193,14 @@ footer .social-links a:hover {
 }
 #halfscreen-hero {
     position: relative;
-    min-height: 350px;
+    min-height: 400px;
     height: 50vh;
     width: 100%;
     overflow: hidden;
     text-align: center;
     background-color: #252a30;
     background-size: cover;
-    background-position: center center;
+    /*background-position: center center;*/
     background-repeat: no-repeat;
 }
 #fullscreen-hero:before, #fullscreen-hero:after {
@@ -3226,7 +3226,7 @@ footer .social-links a:hover {
         background-image: url(../images/IMG-4828.JPG);
     }
     .home-hero1 {
-        background-image: url('../images/IMG_2725.jpg');
+        background-image: url('../images/fb_dp.jpg');
     }
 }
 .home-hero:before{
